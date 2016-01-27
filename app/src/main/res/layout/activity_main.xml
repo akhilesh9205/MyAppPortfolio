@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_nanodegree_apps"
+        android:textSize="@dimen/title_size" />
+
+    <Button
+        android:id="@+id/spotify_streamer"
+        style="@style/ButtonStyle"
+        android:text="@string/spotify_streamer" />
+
+    <Button
+        android:id="@+id/scores_app"
+        style="@style/ButtonStyle"
+        android:text="@string/scores_app" />
+
+    <Button
+        android:id="@+id/library_app"
+        style="@style/ButtonStyle"
+        android:text="@string/library_app" />
+
+    <Button
+        android:id="@+id/build_it_bigger"
+        style="@style/ButtonStyle"
+        android:text="@string/build_it_bigger" />
+
+    <Button
+        android:id="@+id/xyz_reader"
+        style="@style/ButtonStyle"
+        android:text="@string/xyz_reader" />
+
+    <Button
+        android:id="@+id/my_own_app"
+        style="@style/ButtonStyle"
+        android:text="@string/capstone_my_own_app"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"/>
+</LinearLayout>
